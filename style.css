@@ -7,3 +7,31 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 2rem;
+  max-width: 1100px;
+}
+
+.list-container {
+  display: flex;
+  list-style: none;
+}
+
+.link-items {
+  padding: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.logo-img {
+  width: 150px;
+}
