@@ -100,6 +100,39 @@ hero section
   border-radius: 10px;
 }
 
+/* About.html */
+
+.services {
+  background-color: #333;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.services-header {
+  text-align: center;
+  padding: 3rem 0 4rem 0;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.web-design-header,
+.photography-header,
+.graphic-design-header {
+  font-size: 20px;
+  padding-bottom: 0.7rem;
+}
+
+.web-design-text,
+.photography-text,
+.graphic-design-text {
+  line-height: 25px;
+}
+
 /* 
 Footer
 
