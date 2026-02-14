@@ -70,7 +70,7 @@ hero section
 
 .showcase-text {
   font-weight: normal;
-  font-size: 3.1rem;
+  font-size: 3.7rem;
   line-height: 1.4;
 }
 
@@ -111,6 +111,7 @@ hero section
 .services-header {
   text-align: center;
   padding: 3rem 0 4rem 0;
+  font-size: 30px;
 }
 
 .services-container {
@@ -118,6 +119,7 @@ hero section
   justify-content: space-around;
   width: 60%;
   margin: 0 auto;
+  gap: 19px;
 }
 
 .web-design-header,
@@ -128,9 +130,10 @@ hero section
 }
 
 .web-design-text,
-.photography-text,
+.photo-text,
 .graphic-design-text {
-  line-height: 25px;
+  line-height: 30px;
+  font-size: 20px;
 }
 
 /* Our Team */
@@ -141,19 +144,29 @@ hero section
 
 .team-header {
   width: 150px;
-  margin: 2rem auto;
+  margin: 3rem auto;
+  font-size: 30px;
 }
 
 .team-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   margin-bottom: 4rem;
 }
 
 .image-item {
-  width: 450px;
+  width: 550px;
   border-radius: 9px;
+}
+
+h4.ben,
+h4.rebecca,
+h4.kevin,
+.kevin-text,
+.rebecca-text,
+.ben-text {
+  font-size: 20px;
 }
 
 /* 
