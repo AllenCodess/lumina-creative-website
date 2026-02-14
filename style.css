@@ -228,4 +228,14 @@ Media Query
   .contactus-footer-container {
     margin-bottom: 1rem;
   }
+
+  .services-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .photography-container,
+  .web-design-container {
+    margin-bottom: 1rem;
+  }
 }
