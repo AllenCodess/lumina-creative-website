@@ -178,4 +178,21 @@ Media Query
     width: 90%;
     margin: 0 auto;
   }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-contact-list {
+    justify-content: center;
+  }
+
+  .logo-footer-image {
+    margin-bottom: 1rem;
+  }
+
+  .contactus-footer-container {
+    margin-bottom: 1rem;
+  }
 }
