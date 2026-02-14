@@ -47,7 +47,8 @@ body {
   background: var(--primary-color);
 }
 
-.logo-img {
+.logo-img,
+.logo-footer-image {
   width: 150px;
 }
 
@@ -97,6 +98,47 @@ hero section
 .gallery-item img {
   width: 100%;
   border-radius: 10px;
+}
+
+/* 
+Footer
+
+*/
+
+footer {
+  margin: 2rem auto;
+  border-top: solid black 1px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 4rem;
+  width: 80%;
+}
+
+.footer-list {
+  list-style: none;
+  margin-bottom: 0.3rem;
+}
+
+.footer-list li {
+  padding-top: 0.2rem;
+}
+
+.footer-contact-list {
+  display: flex;
+}
+
+.footer-list-items {
+  list-style: none;
+  font-size: 30px;
+}
+
+.contactus-footer-container h4,
+.followus-footer-container h4 {
+  padding-bottom: 0.5rem;
 }
 
 /* 
