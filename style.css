@@ -170,6 +170,31 @@ h4.kevin,
   font-size: 20px;
 }
 
+/* Contact */
+
+.contact-hero-container {
+  background-color: #333;
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.contact-hero-text {
+  color: #333;
+}
+
+h1.contact-hero-showcase {
+  width: 1000px;
+}
+
+.hero-showcase-text-contact {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
 /* 
 Footer
 
