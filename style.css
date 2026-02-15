@@ -223,6 +223,65 @@ footer {
   padding-bottom: 0.5rem;
 }
 
+.contact-form {
+  width: 50%;
+  margin: 4rem auto;
+}
+
+.form-header,
+.form-text {
+  text-align: center;
+}
+
+.form-header {
+  font-size: 30px;
+  margin-bottom: 3rem;
+}
+
+.form-text {
+  font-size: 20px;
+}
+
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.submit-container {
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 20px;
+  border: none;
+  border-bottom: #333 solid 1px;
+  outline: none;
+  background-color: white;
+}
+
+.submit-form {
+  border: #333 1px solid;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.submit-form:hover {
+  color: white;
+  background-color: #333;
+}
+
+textarea {
+  height: 300px;
+  font-family: "Open Sans", sans-serif;
+}
+
 /* 
 
 Media Query
@@ -291,5 +350,10 @@ Media Query
   .team-container {
     flex-direction: column;
     align-items: center;
+  }
+
+  .contact-form {
+    width: 95%;
+    margin: 4rem auto;
   }
 }
